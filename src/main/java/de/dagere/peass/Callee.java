@@ -13,7 +13,7 @@ public class Callee {
 
       try {
          System.out.println("Sleeping...");
-         Thread.sleep(1);
+         Thread.sleep(20);
       } catch (final InterruptedException e) {
          e.printStackTrace();
       }
